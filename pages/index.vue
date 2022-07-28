@@ -1,7 +1,7 @@
 <template>
   <div id="wrapper">
     <div id="logo-wrapper">
-      <img src="public/album/tttlogo.png" alt="Tallahassee Turns Ten Logo" />
+      <img src="/album/tttlogo.png" alt="Tallahassee Turns Ten Logo" />
     </div>
 
     <div id="nav-box">
@@ -17,7 +17,7 @@
 
 <style scoped>
 #wrapper {
-  background-image: url("public/washes/redwash2.jpg");
+  background-image: url("/washes/redwash2.jpg");
 }
 
 #logo-wrapper {
@@ -34,7 +34,7 @@
 
 @media (min-width: 640px) {
   #wrapper {
-    background-image: url("public/album/topartweb.jpg");
+    background-image: url("/album/topartweb.jpg");
     @apply bg-cover bg-bottom;
   }
 }
