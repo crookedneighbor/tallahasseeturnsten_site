@@ -1,7 +1,7 @@
 <template>
   <div id="wrapper">
     <div id="logo-wrapper">
-      <img src="album/tttlogo.png" alt="Tallahassee Turns Ten Logo" />
+      <img src="public/album/tttlogo.png" alt="Tallahassee Turns Ten Logo" />
     </div>
 
     <div id="nav-box">
@@ -10,18 +10,14 @@
         class="m-auto"
         src="https://bandcamp.com/EmbeddedPlayer/album=1093339095/size=large/bgcol=ffffff/linkcol=e99708/artwork=none/transparent=true/"
         seamless
-        ><a
-          href="https://crookedneighbor.bandcamp.com/album/tallahassee-turns-ten"
-          >Tallahassee Turns Ten by Crooked Neighbor</a
-        ></iframe
-      >
+      ></iframe>
     </div>
   </div>
 </template>
 
 <style scoped>
 #wrapper {
-  background-image: url("washes/redwash2.jpg");
+  background-image: url("public/washes/redwash2.jpg");
 }
 
 #logo-wrapper {
@@ -38,7 +34,7 @@
 
 @media (min-width: 640px) {
   #wrapper {
-    background-image: url("album/topartweb.jpg");
+    background-image: url("public/album/topartweb.jpg");
     @apply bg-cover bg-bottom;
   }
 }
