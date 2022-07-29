@@ -3,7 +3,13 @@
     <div class="main-info">
       <div class="track-number" aria-hidden>{{ track }}</div>
       <div>{{ title }}</div>
-      <div class="text-2xl">by {{ artist }}</div>
+      <div class="text-2xl">
+        by
+        <NuxtLink v-if="artistLink" :to="artistLink" target="_blank">{{
+          artist
+        }}</NuxtLink>
+        <span v-else>{{ artist }}</span>
+      </div>
     </div>
 
     <div class="credit-info">
