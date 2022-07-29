@@ -17,10 +17,12 @@
         v-for="participant of participants"
         :key="trackNumber + '-' + participant.name"
       >
-        {{ participant.name }}
-        <span class="text-gray-400">{{ participant.credit }}</span>
+        <span class="font-bold">{{ participant.name }}</span
+        >&nbsp;
+        <span class="text-gray-300">{{ participant.credit }}</span>
       </div>
-      <div>{{ notes }}</div>
+      <hr class="my-2 border-gray-400" />
+      <div class="text-xs text-gray-300">{{ notes }}</div>
     </div>
   </BackgroundWash>
 </template>
@@ -41,6 +43,7 @@ const props = defineProps({
   },
   artistLink: {
     type: String,
+    default: "",
   },
   participants: {
     type: Object,
