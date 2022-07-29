@@ -58,7 +58,7 @@
     </div>
 
     <Separator />
-    <BackgroundWash color="blue" class="flex align-center justify-center">
+    <BackgroundWash color="purple" class="flex align-center justify-center">
       <BackgroundWash color="black" class="content-box">
         <div>
           <h2 class="text-center text-5xl">Credits</h2>
