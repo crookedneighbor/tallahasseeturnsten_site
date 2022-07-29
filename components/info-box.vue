@@ -22,7 +22,7 @@
         <span class="text-gray-300">{{ participant.credit }}</span>
       </div>
       <hr class="my-2 border-gray-400" />
-      <div class="text-xs text-gray-300">{{ notes }}</div>
+      <div class="text-gray-300">{{ notes }}</div>
     </div>
   </BackgroundWash>
 </template>
