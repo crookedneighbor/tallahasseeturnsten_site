@@ -69,6 +69,7 @@ const isReversed = computed(() => {
 
 @media (min-width: 768px) {
   .wrapper {
+    max-height: 800px;
     @apply h-screen flex justify-center items-center;
   }
 
