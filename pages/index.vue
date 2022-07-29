@@ -9,10 +9,7 @@
     <Separator />
 
     <BackgroundWash color="blue" class="flex align-center justify-center">
-      <BackgroundWash
-        color="black"
-        class="border-white border-4 border-double text-white p-8 m-8 w-full lg:w-1/2"
-      >
+      <BackgroundWash color="black" class="content-box">
         <div>
           <p class="mb-4">
             On November 5th, 2002 The Mountain Goats released Tallahassee.
@@ -62,10 +59,7 @@
 
     <Separator />
     <BackgroundWash color="blue" class="flex align-center justify-center">
-      <BackgroundWash
-        color="black"
-        class="border-white border-4 border-double text-white p-8 m-8 w-1/2"
-      >
+      <BackgroundWash color="black" class="content-box">
         <div>
           <h2 class="text-center text-5xl">Credits</h2>
           <p class="my-4">
@@ -617,7 +611,7 @@ const songs = [
 ];
 </script>
 
-<style scoped>
+<style>
 #logo-wrapper {
   background-image: url("/washes/redwash2.jpg");
   @apply flex justify-center p-8;
@@ -625,6 +619,14 @@ const songs = [
 
 #logo-wrapper img {
   @apply max-w-full w-11/12;
+}
+
+.content-box {
+  @apply border-white border-4 border-double text-white p-8 m-8 w-full lg:w-1/2;
+}
+
+a {
+  @apply text-yellow-400;
 }
 
 @media (min-width: 640px) {
