@@ -11,11 +11,11 @@
     <BackgroundWash color="blue" class="flex align-center justify-center">
       <BackgroundWash
         color="black"
-        class="border-white border-4 border-double text-white p-4 m-4 w-1/2"
+        class="border-white border-4 border-double text-white p-8 m-8 w-1/2"
       >
         <div>
           <h2 class="text-center text-5xl">About</h2>
-          <p>
+          <p class="my-4">
             On November 5th, 2002 The Mountain Goats released Tallahassee.
             Artists and fans across genres love John Darnielle's wordy, probing
             songs; and for many, Tallahassee was the album that made us fall in
@@ -25,7 +25,7 @@
             Album.
           </p>
 
-          <p>
+          <p class="my-4">
             The money from selling the compact disc version of the album went to
             supporting
             <NuxtLink to="https://www.farmsanctuary.org/" target="_blank"
@@ -61,6 +61,169 @@
         :background-color="song.backgroundColor"
       ></Song>
     </div>
+
+    <Separator />
+    <BackgroundWash color="blue" class="flex align-center justify-center">
+      <BackgroundWash
+        color="black"
+        class="border-white border-4 border-double text-white p-8 m-8 w-1/2"
+      >
+        <div>
+          <h2 class="text-center text-5xl">Credits</h2>
+          <p class="my-4">
+            The record was produced by Crooked Neighbor LLC and Daniel Isaac
+            Burrage. It was mastered by John McCaig at
+            <NuxtLink to="http://www.panicstudios.com/" target="_blank"
+              >Panic Studios</NuxtLink
+            >. All artwork for the album and website was designed and rendered
+            by
+            <NuxtLink to="https://sarahgraley.com/" target="_blank"
+              >Sarah Graley</NuxtLink
+            >. All songs written by
+            <NuxtLink To="https://www.mountain-goats.com/" target="_blank"
+              >John Darnielle</NuxtLink
+            >.
+          </p>
+
+          <p class="my-4">
+            These wonderful people made this project possible by backing it on
+            Kickstarter: Aaron Fraker, Abby Pullen, Adam Linder, Adam Sullivan,
+            Alex Hughson, Alex Russell, Alex Wilgus, Alexandra,
+            <NuxtLink to="http://allezallie.wordpress.com/" target="_blank"
+              >Allison Meier</NuxtLink
+            >, alpha_puppington, alyssa,
+            <NuxtLink to="http://maybesproutwings.tumblr.com/" target="_blank"
+              >Amanda Lucille</NuxtLink
+            >, Andrew Kornfeld, andrewlips, Andy Gattis, Annmichelle, Ash
+            Ponders,
+            <NuxtLink to="http://deathlehem.tumblr.com/" target="_blank"
+              >Aubri</NuxtLink
+            >,
+            <NuxtLink to="http://www.cllct.com/art/audleyspeeks" target="_blank"
+              >Audley Speeks</NuxtLink
+            >, Ben Zuerlein, Benjamin Silver, Binz, Brandon Lindquist, Brendan,
+            Brian Clement, Brian Corstange, Caitlin Rose Boyle, Carla Arnold,
+            Carly, Cassandra, Catherine Morris, Catherine Walsh,
+            <NuxtLink to="http://www.cathyboy.com/" target="_blank"
+              >Cathy G. Johnson</NuxtLink
+            >, Celeste Adamson, charis,
+            <NuxtLink to="http://charitykittler.com" target="_blank"
+              >Charity Kittler</NuxtLink
+            >, Chris Rediske, Christian Gridelli, Christopher MacMurray,
+            <NuxtLink to="http://www.musicboomerang.com/" target="_blank"
+              >"come trade your old CD's"</NuxtLink
+            >, Corey Smith, Cory Banks, Craig Barringer, Crystal Baxley, Dallas
+            Gentry, Dan Winkler, Daniel Albert, Daniel Barringer, Daniel Isaac
+            Burrage, Daniel Godwin,
+            <NuxtLink to="http://storiedtheology.com" target="_blank"
+              >Daniel Kirk</NuxtLink
+            >, Daniel Saunders, Daniela Isabella Ricci, Danielle Human Ross,
+            Danny Martin, Derek Bosshard, Devon, Dianna Settles,
+            <NuxtLink
+              to="http://www.bloodygretagarbo.com/pasquinade"
+              target="_blank"
+              >Dominica Nicholls</NuxtLink
+            >, Drew Thies, Dylan, Edward Goodson, Eibhlin McMenamin, Elaine,
+            Elizabeth Tuck, Elliot Simmons,
+            <NuxtLink to="http://twitter.com/Emily_Perper" target="_blank"
+              >Emily Perper</NuxtLink
+            >, Eric Brown, Eric Lowe, farynakita, Frank Fogarty,
+            <NuxtLink to="http://jameater.cleanfolio.com" target="_blank"
+              >Frankih Kay</NuxtLink
+            >,
+            <NuxtLink
+              to="http://gabrielellisonricharde.bandcamp.com/"
+              target="_blank"
+              >Gabriel Ellison RiCharde</NuxtLink
+            >, Grahm Eberhardt, Hansel, Heather O'Connor, Helena Ross, Huan
+            Manton, Ian,
+            <NuxtLink to="http://imathers.tumblr.com/" target="_blank"
+              >Ian Mathers</NuxtLink
+            >, Isaac Tyler, Isaac Valenzuela, Isobel, J, Jamie, Jathan Pugh,
+            Jeff Killingsworth, Jeremiah White,
+            <NuxtLink to="http://thelistcomic.com/" target="_blank"
+              >Jerry Willoughby</NuxtLink
+            >, john frewin, Johnathan Hansen, Jordan Michael Iannucci, Joseph
+            Hatton, Joshua Huffman, Josiah Ostoich, Julia Ward,
+            <NuxtLink to="http://volume-knob.blogspot.com/" target="_blank"
+              >June Sezah Hatfield</NuxtLink
+            >, Justin,
+            <NuxtLink to="http://justindaley.bandcamp.com/" target="_blank"
+              >Justin Mariner Daley</NuxtLink
+            >, Kara Elliott-Ortega, Katelyn Leary, Kathryn Cullum, Kayleigh,
+            Kevin, Kevin Seltzer, Kirsten Opstad, Kyle Auble, Kyle McKenna,
+            <NuxtLink to="http://laurablumblr.tumblr.com/" target="_blank"
+              >Laura Blum</NuxtLink
+            >, Laura Cornwall, Laura Shapiro, Lauren, Lee Ogilvie, Leonard
+            Richardson, Lewis Winter,
+            <NuxtLink to="http://lastyearsgirl.pixlet.net" target="_blank"
+              >Lis Ferla</NuxtLink
+            >, Lola Smith, Louisa Amsterdam, Luke Brewster, Luke David Bather,
+            <NuxtLink to="http://bliumchik.dreamwidth.org/" target="_blank"
+              >Maggie K</NuxtLink
+            >,
+            <NuxtLink to="http://maiyaeats.tumblr.com/" target="_blank"
+              >Maiya Wiester</NuxtLink
+            >, mara, marc, Mariah Marconi, Mark Donaldson, Martin Atkinson,
+            Marty Jones, Matthew Kuhmann,
+            <NuxtLink
+              to="http://thesoundandthefurry.tumblr.com/"
+              target="_blank"
+              >Matthew Monthei</NuxtLink
+            >, max parmer, Max Smith, Megan Smith,
+            <NuxtLink to="https://twitter.com/#!/kittenry" target="_blank"
+              >Melvin Peña</NuxtLink
+            >, Michael, Michael Kauffman, Michael OConnor, Michaela Drapes, Mike
+            Dickison, Mikio, Monica Lynn Remmers, Nathaniel Remington Lovdahl,
+            Nick Golding,
+            <NuxtLink to="http://tampontears.tumblr.com/" target="_blank"
+              >Nick Shulla</NuxtLink
+            >, Nicole Bedard, Nigel Ewan, Nora Pullen, Omar Osegueda, Paulina
+            Saba, Phil Brayshaw, Phoebe Rose Walker, Plutonium, Rachael Tucker,
+            Rachel Thompson, Raishawn Wickwire, Rebecca Vitale, Rich Lawrence,
+            Richard Fuss, Richie Manis,
+            <NuxtLink
+              to="http://kafka-on-the-road.blogspot.co.uk/"
+              target="_blank"
+              >Ryan O'Reilly</NuxtLink
+            >, Ryan Steele, Sadie, Sal, Sam Bilheimer,
+            <NuxtLink to="http://fatherthug.tumblr.com/" target="_blank"
+              >Sam Logsdon</NuxtLink
+            >, Sarah Avampato, Sarah Rattenborg,
+            <NuxtLink
+              to="http://www.flickr.com/photos/sashapedro"
+              target="_blank"
+              >Sasha Pedro</NuxtLink
+            >, Siana Lacey, stacey noll, Stephen Tanksley, Steve and Tamara
+            Hoey, Steve Keysor, Steven Smiley, Still Magiing, Suzanne Ditman,
+            Tarasque Tymoshenko, Terry Herbert,
+            <NuxtLink to="http://www.thewonderfullives.com/" target="_blank"
+              >The Wonderful Lives</NuxtLink
+            >,
+            <NuxtLink to="https://twitter.com/itsthom" target="_blank"
+              >Thom Ryan</NuxtLink
+            >,
+            <NuxtLink
+              to="http://whatfreshheckisthis.tumblr.com/"
+              target="_blank"
+              >Tim Garvey</NuxtLink
+            >, Timothy C. Gyves, to'c, Tom Pokorny, Tom Urwin, Tyler,
+            <NuxtLink
+              to="http://itunes.apple.com/us/podcast/ninjas-vs.-podcast/id473562353"
+              target="_blank"
+              >Tyler Crumrine</NuxtLink
+            >,
+            <NuxtLink to="http://twitter.com/valerie2776" target="_blank"
+              >Valerie Barr</NuxtLink
+            >, Walker Reynolds, Walt Evans, Walter Poulsen, Wyatt Hi-Hat Miller,
+            xea-me,
+            <NuxtLink to="http://www.twitter.com/zsghost" target="_blank"
+              >Zach Gozlan</NuxtLink
+            >, Zach Huselid
+          </p>
+        </div>
+      </BackgroundWash>
+    </BackgroundWash>
 
     <Separator />
   </div>
@@ -459,7 +622,7 @@ const songs = [
 <style scoped>
 #logo-wrapper {
   background-image: url("/washes/redwash2.jpg");
-  @apply flex justify-center p-4;
+  @apply flex justify-center p-8;
 }
 
 #logo-wrapper img {
@@ -467,7 +630,7 @@ const songs = [
 }
 
 #player {
-  @apply p-4;
+  @apply p-8;
 }
 
 @media (min-width: 640px) {

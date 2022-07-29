@@ -64,7 +64,7 @@ const isReversed = computed(() => {
 
 <style scoped>
 .wrapper {
-  @apply p-4;
+  @apply p-8;
 }
 
 @media (min-width: 768px) {
