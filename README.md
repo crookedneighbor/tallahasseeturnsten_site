@@ -34,4 +34,4 @@ npm run preview
 
 ## Deploy
 
-Merging changes to `main` will kick off the deploy automatically. (TODO)
+Merging changes to `main` will kick off the deploy automatically.
