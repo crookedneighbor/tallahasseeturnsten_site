@@ -11,11 +11,10 @@
     <BackgroundWash color="blue" class="flex align-center justify-center">
       <BackgroundWash
         color="black"
-        class="border-white border-4 border-double text-white p-8 m-8 w-1/2"
+        class="border-white border-4 border-double text-white p-8 m-8 w-full lg:w-1/2"
       >
         <div>
-          <h2 class="text-center text-5xl">About</h2>
-          <p class="my-4">
+          <p class="mb-4">
             On November 5th, 2002 The Mountain Goats released Tallahassee.
             Artists and fans across genres love John Darnielle's wordy, probing
             songs; and for many, Tallahassee was the album that made us fall in
@@ -38,14 +37,13 @@
             >.
           </p>
         </div>
-        <div id="player">
-          <iframe
-            style="border: 0; width: 580px; max-width: 100%; height: 472px"
-            class="m-auto"
-            src="https://bandcamp.com/EmbeddedPlayer/album=1093339095/size=large/bgcol=ffffff/linkcol=e99708/artwork=none/transparent=true/"
-            seamless
-          ></iframe>
-        </div>
+
+        <iframe
+          style="border: 0; width: 580px; max-width: 100%; height: 472px"
+          class="m-auto"
+          src="https://bandcamp.com/EmbeddedPlayer/album=1093339095/size=large/bgcol=ffffff/linkcol=e99708/artwork=none/transparent=true/"
+          seamless
+        ></iframe>
       </BackgroundWash>
     </BackgroundWash>
 
@@ -627,10 +625,6 @@ const songs = [
 
 #logo-wrapper img {
   @apply max-w-full w-11/12;
-}
-
-#player {
-  @apply p-8;
 }
 
 @media (min-width: 640px) {
