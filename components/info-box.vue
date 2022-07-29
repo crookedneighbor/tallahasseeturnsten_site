@@ -17,8 +17,8 @@
         v-for="participant of participants"
         :key="trackNumber + '-' + participant.name"
       >
-        <span class="text-yellow-400">{{ participant.name }}</span>
-        {{ participant.credit }}
+        {{ participant.name }}
+        <span class="text-gray-400">{{ participant.credit }}</span>
       </div>
       <div>{{ notes }}</div>
     </div>
