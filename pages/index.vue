@@ -613,7 +613,7 @@ const songs = [
 
 <style>
 #logo-wrapper {
-  background-image: url("/washes/redwash2.jpg");
+  background-image: url("/washes/redwash.jpg");
   @apply flex justify-center p-8;
 }
 
