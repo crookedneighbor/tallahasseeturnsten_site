@@ -8,7 +8,7 @@
       :track-number="trackNumber"
       :title="title"
       :artist="artist"
-      :artist-link="artistLink || ''"
+      :artist-link="artistLink"
       :participants="participants"
       :notes="notes"
     />

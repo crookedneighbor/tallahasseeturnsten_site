@@ -49,7 +49,7 @@
       <Song
         :title="song.title"
         :artist="song.artist"
-        :artist-link="song.artistLink"
+        :artist-link="song.artistLink || ''"
         :participants="song.participants"
         :notes="song.notes"
         :track-number="index + 1"
